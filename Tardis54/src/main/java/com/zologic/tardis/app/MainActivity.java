@@ -51,7 +51,7 @@ import java.util.UUID;
 import static android.support.v4.widget.SwipeRefreshLayout.OnRefreshListener;
 
 
-public class  MainActivity extends AppCompatActivity implements BleManager.BleManagerListener, BleUtils.ResetBluetoothAdapterListener, FirmwareUpdater.FirmwareUpdaterListener {
+public class MainActivity extends AppCompatActivity implements BleManager.BleManagerListener, BleUtils.ResetBluetoothAdapterListener, FirmwareUpdater.FirmwareUpdaterListener {
     // Constants
     private final static String TAG = MainActivity.class.getSimpleName();
     private final static long kMinDelayToUpdateUI = 200;    // in milliseconds
